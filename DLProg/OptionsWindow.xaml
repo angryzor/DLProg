@@ -1,0 +1,54 @@
+﻿<Window x:Class="DLProg.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OptionsWindow" Height="302" Width="568">
+    <TabControl>
+        <TabItem Header="Downloading">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Wait time between downloads (seconds)" />
+                <TextBox Grid.Row="0" Grid.Column="1" Height="20" Text="{Binding Source={StaticResource Settings},Path=Default.DownloadWaitTime,UpdateSourceTrigger=PropertyChanged}" />
+                <Label Grid.Row="1" Grid.Column="0" Content="Number of workers" />
+                <TextBox Grid.Row="1" Grid.Column="1" Height="20" Text="{Binding Source={StaticResource Settings},Path=Default.DownloadNumWorkers,UpdateSourceTrigger=PropertyChanged}" />
+                <Label Grid.Row="2" Grid.Column="0" Content="Respect HTTP Code of Conduct">
+                    <Label.ToolTip>
+                        <TextBlock>
+                            This feature limits the number of connections to the normally accepted number which browsers also adhere to.
+                            <LineBreak />
+                            Turning this off will make a connection for every worker and may speed up downloads with lots of workers,
+                            <LineBreak />
+                            but may piss off a sysadmin causing you to get banned.
+                        <LineBreak />
+                        It's best to leave this enabled.
+                        </TextBlock>
+                    </Label.ToolTip>
+                </Label>
+                <CheckBox Grid.Row="2" Grid.Column="1" Height="20" IsChecked="{Binding Source={StaticResource Settings},Path=Default.DownloadNumWorkers,UpdateSourceTrigger=PropertyChanged}">
+                    <CheckBox.ToolTip>
+                        <TextBlock>
+                            This feature limits the number of connections to the normally accepted number which browsers also adhere to.
+                            <LineBreak />
+                            Turning this off will make a connection for every worker and may speed up downloads with lots of workers,
+                            <LineBreak />
+                            but may piss off a sysadmin causing you to get banned.
+                        <LineBreak />
+                        It's best to leave this enabled.
+                        </TextBlock>
+                    </CheckBox.ToolTip>
+                </CheckBox>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicConfiguration_BasicConfiguration" xml:space="preserve">
+    <value>Basic Configuration</value>
+  </data>
+  <data name="Browser_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="DownloadConfiguration_DownloadConfiguration" xml:space="preserve">
+    <value>Download Configuration</value>
+  </data>
+  <data name="Errors_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Errors_Errors" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="Errors_URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="FolderSelection_Description" xml:space="preserve">
+    <value>Select a folder to place your downloaded files in.</value>
+  </data>
+  <data name="Log_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Menu_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Menu_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Menu_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Menu_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Menu_SaveAs" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="NewDialog_Title" xml:space="preserve">
+    <value>New project...</value>
+  </data>
+  <data name="OpenFileDialog_DefaultExt" xml:space="preserve">
+    <value>dlp</value>
+  </data>
+  <data name="OpenFileDialog_Filter" xml:space="preserve">
+    <value>DownloadProg project files (*.dlp)|*.dlp|All files (*.*)|*.*</value>
+  </data>
+  <data name="OpenFileDialog_Title" xml:space="preserve">
+    <value>Select a project file.</value>
+  </data>
+  <data name="Queue_Filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="Queue_Queue" xml:space="preserve">
+    <value>Queue</value>
+  </data>
+  <data name="Queue_URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Ribbon_ClearErrors" xml:space="preserve">
+    <value>Clear errors</value>
+  </data>
+  <data name="Ribbon_ClearQueue" xml:space="preserve">
+    <value>Clear queue</value>
+  </data>
+  <data name="Ribbon_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Ribbon_Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Ribbon_Queue" xml:space="preserve">
+    <value>Queue</value>
+  </data>
+  <data name="Ribbon_RequeueErrors" xml:space="preserve">
+    <value>Requeue errors</value>
+  </data>
+  <data name="Ribbon_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Ribbon_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="SaveFileDialog_DefaultExt" xml:space="preserve">
+    <value>dlp</value>
+  </data>
+  <data name="SaveFileDialog_Filter" xml:space="preserve">
+    <value>DownloadProg project files (*.dlp)|*.dlp|All files (*.*)|*.*</value>
+  </data>
+  <data name="SaveFileDialog_Title" xml:space="preserve">
+    <value>Select a file to save your project settings and state in.</value>
+  </data>
+  <data name="Script_Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="StatusBar_MaxDownloadSpeed" xml:space="preserve">
+    <value>Max download speed:</value>
+  </data>
+  <data name="Workers_CurrentURL" xml:space="preserve">
+    <value>Current URL</value>
+  </data>
+  <data name="Workers_Downloaded" xml:space="preserve">
+    <value>Downloaded</value>
+  </data>
+  <data name="Workers_Progress" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="Workers_Workers" xml:space="preserve">
+    <value>Workers</value>
+  </data>
+</root>
